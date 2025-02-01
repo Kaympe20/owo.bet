@@ -1,5 +1,35 @@
 @import "tailwindcss";
 
 body {
-    background-color: rgb(193, 193, 255);
+    background-image: url("https://cloud-r8rn7pewe-hack-club-bot.vercel.app/0pxl_20240720_143251592.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: lato;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.content-container {
+    border: solid black;
+    padding: 0 64px 0 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.image-text-container img {
+    margin-right: 16px;
+    border-radius: 30px;
 }
