@@ -3,6 +3,7 @@
 body {
     background-image: url("https://cloud-r8rn7pewe-hack-club-bot.vercel.app/0pxl_20240720_143251592.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     font-family: lato;
 }
@@ -30,6 +31,6 @@ body {
 }
 
 .image-text-container img {
-    margin-right: 16px;
+    margin: 1em 16px 1em 0;
     border-radius: 30px;
 }
