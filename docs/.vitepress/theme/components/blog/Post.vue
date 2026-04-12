@@ -15,7 +15,7 @@ const author = findByName(props.post.author)
 
 <template>
   <article
-    class="p-6 rounded-lg border border-[color:var(--vp-c-brand-light)] shadow-md dark:border-[color:var(--vp-c-brand-dark)]"
+    class="p-6 rounded-lg border border-[color:var(--vp-c-brand-light)] shadow-md dark:border-[color:var(--vp-c-brand-dark)] bg-[color:var(--vp-c-bg-alt)]"
   >
     <div class="flex justify-between items-center mb-5 text-gray-500">
       <span

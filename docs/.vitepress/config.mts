@@ -39,7 +39,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     },
     blog: {
       title: 'My Blog',
-      description: 'Some articles for sample Blog',
+      description: 'Some bad opinions you probably would prefer not to read.',
     },
 
   },
@@ -55,31 +55,9 @@ export default defineConfigWithTheme<ThemeConfig>({
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-    { text: 'Configs', link: '/config/', activeMatch: '/config/' },
+    // { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
+    // { text: 'Configs', link: '/config/', activeMatch: '/config/' },
     { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
-    {
-      text: 'External Docs',
-      items: [
-        {
-          text: 'Vitepress',
-          link: 'https://vitepress.vuejs.org',
-        },
-        {
-          text: 'UnoCSS',
-          link: 'https://uno.antfu.me',
-        },
-      ],
-    },
-    {
-      text: version,
-      items: [
-        {
-          text: 'Changelog',
-          link: 'https://github.com/Kaympe20/owo.bet/blob/main/CHANGELOG.md',
-        },
-      ],
-    },
   ]
 }
 
